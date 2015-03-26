@@ -1,0 +1,1 @@
+docker run --name="nginx-1.6.2" -d -p 80:80 -p 443:443 -v ~/Development/docker/nginx/cache:/var/cache/nginx -v ~/Development/docker/nginx/log:/var/log/nginx -v ~/Development/docker/nginx/conf.d:/etc/nginx/conf.d amsokol/oraclelinux-nginx:7.1-1.6.2
